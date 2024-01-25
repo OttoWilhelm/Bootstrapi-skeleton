@@ -1,0 +1,22 @@
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+
+$primary: #fd1498;
+$secondary: #fb63b9;
+
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+);
+
+
+
+$brand: (
+  "brand": #1a134f
+);
+
+
+$theme-colors: map-merge($theme-colors, $brand);
+
+@import "bootstrap/scss/bootstrap";
+
